@@ -12,9 +12,15 @@ dependencies:
     sdk: flutter
   flutter_image_compress_platform_interface: ^1.0.3
   flutter_image_compress_common:
-    path: ../flutter_image_compress_common
+    git:
+      url: https://github.com/nagayukki/flutter_image_compress.git
+      path: ./packages/flutter_image_compress_common
+      ref: feature/jvm-17
   flutter_image_compress_web:
-    path: ../flutter_image_compress_web
+    git:
+      url: https://github.com/nagayukki/flutter_image_compress.git
+      path: ./packages/flutter_image_compress_web
+      ref: feature/jvm-17
   flutter_image_compress_macos: ^1.0.1
 
 flutter:
